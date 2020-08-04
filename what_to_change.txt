@@ -1,0 +1,7 @@
+1. Change project name; this is your artifactID
+2. Go to pom.xml and change artifactID (project name) and groupID (com.bibhash.artifactID)
+3. Change your app's name, description, version
+4. Near end of pom.xml Change <mainClass>yourGroupIDTheOneWithCom.Main</mainClass> (replace with your groupId.Main)
+5. Refactor and rename package name to groupID
+6. In Main.fxml change fx:controller="yourGroupIDTheOneWithCom.Controller"> (replace with your groupId.Main)
+7. Clean, install, run with Goal: compile javafx:run
