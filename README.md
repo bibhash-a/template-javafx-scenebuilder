@@ -1,3 +1,4 @@
+#Instructions
 1. Change "yourArtifactID", i.e. the folder's name, to your project name. This is your artifactID.
 
 2. Go to pom.xml and change the artifactID and groupID. 
@@ -14,3 +15,4 @@
 7. Maven clean and install. Then, build with Maven and add the following Goal: compile javafx:run.
 
 8. A simple program should appear indicating a successfully set up project. 
+

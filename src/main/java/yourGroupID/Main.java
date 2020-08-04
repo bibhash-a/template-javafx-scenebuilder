@@ -1,4 +1,4 @@
-package yourGroupIDTheOneWithCom;
+package yourGroupID;
 
 import javafx.application.Application;
 import javafx.event.ActionEvent;
@@ -22,18 +22,10 @@ public class Main extends Application {
 	}
 
 	public void start(Stage primaryStage) throws Exception {
-		// With SceneBuilder:
+	
 		Parent root = FXMLLoader.load(getClass().getResource("Main.fxml"));
 		Scene myScene = new Scene(root);
 		primaryStage.setScene(myScene);
 		primaryStage.show();
 	}
 }
-
-/*
- * Without SceneBuilder: 
- * GridPane myGrid = new GridPane(); 
- * Button myButton = new Button("I am a button!"); 
- * myGrid.add(myButton, 0, 0); 
- * Scene myScene = new Scene(myGrid, 450, 100); 
- */
