@@ -1,4 +1,4 @@
-#Instructions
+# Instructions
 1. Change "yourArtifactID", i.e. the folder's name, to your project name. This is your artifactID.
 
 2. Go to pom.xml and change the artifactID and groupID. 
